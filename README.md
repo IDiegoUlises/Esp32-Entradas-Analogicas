@@ -1,4 +1,6 @@
 # Esp32-Entradas-Analogicas
+<img src="https://github.com/IDiegoUlises/Esp32-Entradas-Analogicas/blob/main/Images/Esp32-Entradas.jpg" width="800" height="500" />
+
 Los pines ADC2 no se pueden usar cuando se usa WiFi
 los pines ADC1 se pueden usar incluso cuando WiFi esta habilitado.
 
