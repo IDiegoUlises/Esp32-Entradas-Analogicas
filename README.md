@@ -24,7 +24,7 @@ void loop()
 <img src="https://github.com/IDiegoUlises/Esp32-Entradas-Analogicas/blob/main/Images/Conexion-Recortada.png" width="500" height="500" />
 
 
-### Al momento de usar WiFi.begin() todos los puertos adc2 quedaran inhabilitados
+### Al momento de usar WiFi especificamente la funcion WiFi.begin() todos los puertos adc2 quedaran inhabilitados
 ```c++
 #include "WiFi.h"
 
