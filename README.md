@@ -17,6 +17,8 @@ void loop()
   delay(100);
 }
 ```
+* El pin debe estar conectado a algo o una resistencia de lo contrario mostrara valores aleatorios.
+* 
 ### Al momento de usar WiFi.begin() todos los puertos adc2 quedaran inhabilitados
 ```c++
 #include "WiFi.h"
