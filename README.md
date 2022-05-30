@@ -39,4 +39,3 @@ void loop()
 }
 
 ```
-* Por lo tanto los puertos de adc2 no funcionaran como entradas cuando se use wifi pero si funcionaran los puertos adc1
