@@ -17,7 +17,7 @@ void loop()
   delay(100);
 }
 ```
-### Al momento de usar WiFi.begin(); todos los puertos adc2 quedaran inhabilitados
+### Al momento de usar WiFi.begin() todos los puertos adc2 quedaran inhabilitados
 ```c++
 #include "WiFi.h"
 
@@ -37,3 +37,4 @@ void loop()
 }
 
 ```
+* Por lo tanto los puertos de adc2 no funcionaran como entradas
