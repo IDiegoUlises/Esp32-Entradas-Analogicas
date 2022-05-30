@@ -17,3 +17,23 @@ void loop()
   delay(100);
 }
 ```
+### Al momento de usar WiFi.begin(); todos los puertos adc2 quedaran inhabilitados
+```c++
+#include "WiFi.h"
+
+int pin = 4;
+
+void setup()
+{
+  Serial.begin(9600);
+  WiFi.begin("ssid", "password");
+}
+
+void loop()
+{
+  int pot = analogRead(pin);
+  Serial.println(pot);
+  delay(100);
+}
+
+```
