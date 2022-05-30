@@ -22,7 +22,7 @@ void loop()
 * El pin debe estar conectado a algo que le suminestre alguna señal o fuente de lo contrario mostrara valores aleatorios.
 
 # Conexion
-<img src="https://github.com/IDiegoUlises/Esp32-Entradas-Analogicas/blob/main/Images/Conexion-Recortada.png" width="800" height="500" />
+<img src="https://github.com/IDiegoUlises/Esp32-Entradas-Analogicas/blob/main/Images/Conexion-Recortada.png" width="500" height="500" />
 
 
 ### Al momento de usar WiFi.begin() todos los puertos adc2 quedaran inhabilitados
