@@ -23,7 +23,7 @@ void loop()
 ```c++
 #include "WiFi.h"
 
-int pin = 4;
+int pin = 15;
 
 void setup()
 {
